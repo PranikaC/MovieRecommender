@@ -1,0 +1,23 @@
+# Credentials - never commit
+.env
+
+# Virtual environment
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data outputs (large files)
+*.pkl
+*.parquet
+
+# OS
+.DS_Store
+Thumbs.db
